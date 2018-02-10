@@ -1,5 +1,8 @@
 package com.plateChef;
 
+/**
+ * Runs the Application.
+ */
 public class Runner {
     public static void main(String[] args) {
         ChefTable table = new ChefTable();
