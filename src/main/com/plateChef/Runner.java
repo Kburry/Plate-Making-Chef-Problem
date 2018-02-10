@@ -14,11 +14,6 @@ public class Runner {
         Thread chef3Thread = new Thread(riceChef);
 
         agentThread.start();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         chef1Thread.start();
         chef2Thread.start();
         chef3Thread.start();
